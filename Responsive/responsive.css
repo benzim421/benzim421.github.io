@@ -1,5 +1,28 @@
 .comic {
   background: url("https://imgs.xkcd.com/comics/self_description.png");
-  width: 500px;
-  height: 200px;
+  width: 745px;
+  height: 180px;
+}
+@media screen and (min-width: 1200px) {
+  .comic {
+    background: url("https://imgs.xkcd.com/comics/self_description.png");
+    width: 250px;
+    height: 180px;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+  .comic {
+    background: url("https://imgs.xkcd.com/comics/self_description.png");
+    min-width: 250px;
+    max-width: 500px;
+    height: 180px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .comic {
+    background: url("https://imgs.xkcd.com/comics/self_description.png");
+    min-width: 500px;
+    max-width: 750px;
+    height: 180px;
+  }
 }
