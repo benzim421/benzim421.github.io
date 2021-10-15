@@ -1,0 +1,127 @@
+.row {
+  margin-left: 10px;
+}
+h1 {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+#Beef {
+  height: auto;
+  width: auto;
+  margin-right: 20px;
+  padding-left: 0%;
+  padding-right: 0%;
+  --bs-gutter-x: 0;
+  background-image: repeating-linear-gradient(red, yellow);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  border: 5px solid gray;
+  border-style: groove;
+}
+#Chicken {
+  border: 1px solid gray;
+  height: auto;
+  width: auto;
+  margin-right: 20px;
+  padding-left: 0%;
+  padding-right: 0%;
+  --bs-gutter-x: 0;
+  background-image: repeating-linear-gradient(red, yellow);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  border: 5px solid gray;
+  border-style: groove;
+}
+#Sushi {
+  border: 1px solid gray;
+  height: auto;
+  width: auto;
+  margin-right: 20px;
+  padding-left: 0%;
+  padding-right: 0%;
+  --bs-gutter-x: 0;
+  background-image: repeating-linear-gradient(red, yellow);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  border: 5px solid gray;
+  border-style: groove;
+}
+#topright1 {
+  width: 50px;
+  float: right;
+  --bs-gutter-x: 0;
+  border: solid 3px gray;
+  background-color: turquoise;
+  border-style: dotted;
+}
+#topright2 {
+  border: solid 1px gray;
+  width: 75px;
+  float: right;
+  background-color: pink;
+  --bs-gutter-x: 0;
+  border: solid 3px gray;
+  background-color: turquoise;
+  border-style: dotted;
+}
+#topright3 {
+  border: solid 1px gray;
+  width: 50px;
+  float: right;
+  background-color: pink;
+  --bs-gutter-x: 0;
+  border: solid 3px gray;
+  background-color: turquoise;
+  border-style: dotted;
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  #Sushi {
+    flex: auto;
+    width: 95%;
+    margin-top: 20px;
+    background-image: repeating-linear-gradient(blue, turquoise);
+    color: red;
+  }
+  #Beef {
+    background-image: repeating-linear-gradient(blue, turquoise);
+    color: red;
+  }
+  #Chicken {
+    background-image: repeating-linear-gradient(blue, turquoise);
+    color: red;
+  }
+  #topright1 {
+    background-color: yellow;
+  }
+  #topright2 {
+    background-color: yellow;
+  }
+  #topright3 {
+    background-color: yellow;
+  }
+}
+@media screen and (max-width: 767px) {
+  #Beef {
+    flex: auto;
+    background-image: repeating-linear-gradient(green, lime);
+    color: blue;
+  }
+  #Chicken {
+    flex: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-image: repeating-linear-gradient(green, lime);
+    color: blue;
+  }
+  #Sushi {
+    flex: auto;
+    background-image: repeating-linear-gradient(green, lime);
+    color: blue;
+  }
+  #topright1 {
+    background-color: red;
+  }
+  #topright2 {
+    background-color: red;
+  }
+  #topright3 {
+    background-color: red;
+  }
+}
