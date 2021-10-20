@@ -1,3 +1,14 @@
+p,
+a:visited,
+a:link {
+  color: white;
+}
+
+body {
+  background: url(skiflic.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
 h1 {
   color: purple;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -13,20 +24,4 @@ h1 {
   border-style: double;
   background: repeating-linear-gradient(blue, aqua);
   width: 250px;
-}
-img {
-  display: inline;
-  margin: 0 auto;
-  height: 100%;
-  width: 300px;
-}
-.image-container {
-  width: 0%;
-  display: block;
-  align-content: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-#body {
-  background-image: url("https://i0.wp.com/boingboing.net/wp-content/uploads/2018/05/cool-background1.png?fit=1192%2C600&ssl=1");
 }
