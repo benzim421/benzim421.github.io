@@ -9,25 +9,37 @@ div {
   position: absolute;
   width: 150px;
 }
-
+h1 {
+  color: white;
+  font-family: monospace;
+}
 body {
-  background: url(skiflic.jpg) no-repeat center center fixed;
+  background: url(space1.jpg) no-repeat center center fixed;
   background-size: cover;
 }
-
-h1 {
-  color: purple;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  border: 2px solid red;
-  border-style: double;
-  background: repeating-linear-gradient(red, yellow);
-  width: 80px;
+img {
+  width: 300px;
+  float: right;
 }
-#h2 {
-  color: pink;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  border: 2px solid rgb(234, 0, 255);
-  border-style: double;
-  background: repeating-linear-gradient(blue, aqua);
-  width: 250px;
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  body {
+    background: url(space2.jpg) no-repeat center center fixed;
+    background-size: cover;
+  }
+  div {
+    border: 5px solid white;
+    border-style: dotted;
+    background-image: repeating-linear-gradient(red, yellow);
+  }
+}
+@media screen and (max-width: 767px) {
+  body {
+    background: url(space3.jpg) no-repeat center center fixed;
+    background-size: cover;
+  }
+  div {
+    border: 5px solid red;
+    border-style: double;
+  }
 }
