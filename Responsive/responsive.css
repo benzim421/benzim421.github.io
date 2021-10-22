@@ -1,8 +1,10 @@
-#body {
-  background-image: url("https://i0.wp.com/boingboing.net/wp-content/uploads/2018/05/cool-background1.png?fit=1192%2C600&ssl=1");
+body {
+  background: url(flanel.jpg) no-repeat center center fixed;
+  background-size: cover;
 }
 .comic {
   background: url("https://imgs.xkcd.com/comics/self_description.png");
+  margin-top: 150px;
   width: 745px;
   height: 180px;
 }
